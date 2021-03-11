@@ -1,12 +1,8 @@
-const Quote = () => {
+const Quote = ({ body, author }) => {
 	return (
 		<>
-			<blockquote id="text">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at quam
-				nunc. Vestibulum in quam ut libero fringilla bibendum eget vel justo.
-				Etiam nunc turpis, luctus quis vehicula a, hendrerit sit amet augue.
-			</blockquote>
-			<p id="author">Lorem Ipsum</p>
+			<blockquote id="text">{body}</blockquote>
+			<p id="author">{author}</p>
 		</>
 	);
 };
