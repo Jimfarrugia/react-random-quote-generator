@@ -13,7 +13,7 @@ function App() {
 		<>
 			<div id="quote-box">
 				<Quote body={quote.body} author={quote.author} />
-				<Actions onClickNewQuote={onClickNewQuote} />
+				<Actions onClickNewQuote={onClickNewQuote} quote={quote} />
 			</div>
 			<Footer />
 		</>

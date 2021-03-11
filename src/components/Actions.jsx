@@ -1,7 +1,10 @@
-const Actions = ({ onClickNewQuote }) => {
+const Actions = ({ onClickNewQuote, quote }) => {
 	return (
 		<div id="actions">
-			<a id="tweet-quote" href="#">
+			<a
+				id="tweet-quote"
+				href={`https://twitter.com/intent/tweet?hashtags=quotes&text="${quote.body}" - ${quote.author}`}
+			>
 				Tweet Quote
 			</a>
 			<button id="new-quote" type="button" onClick={onClickNewQuote}>
