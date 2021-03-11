@@ -16,6 +16,21 @@ a {
 	text-decoration: none;
 }
 
+button {
+	padding: 0.825rem;
+	font-size: 1rem;
+	color: #fff;
+	background: indigo;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background: darkviolet;
+}
+
 footer {
 	text-align: center;
 	margin: 0 0 5rem;
