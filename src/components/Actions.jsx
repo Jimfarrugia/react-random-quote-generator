@@ -4,9 +4,9 @@ const Actions = () => {
 			<a id="tweet-quote" href="#">
 				Tweet Quote
 			</a>
-			<a id="new-quote" href="#">
+			<button id="new-quote" type="button">
 				New Quote
-			</a>
+			</button>
 			<div className="clear"></div>
 		</div>
 	);
