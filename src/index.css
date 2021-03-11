@@ -21,6 +21,10 @@ footer {
 	margin: 0 0 5rem;
 }
 
+.clear {
+	clear: both;
+}
+
 #quote-box {
 	background: violet;
 	margin: 5rem auto 1rem;
@@ -31,7 +35,7 @@ footer {
 	border-radius: 5px;
 }
 
-#quote {
+#text {
 	font-family: "Noto Serif", serif;
 	font-style: italic;
 	margin: 0;
@@ -39,7 +43,7 @@ footer {
 	line-height: 1.5;
 }
 
-#quote:before {
+#text:before {
 	content: "\0022 ";
 }
 
@@ -54,10 +58,6 @@ footer {
 	content: "- ";
 }
 
-.clear {
-	clear: both;
-}
-
 #actions a {
 	float: left;
 	color: #fff;
@@ -70,10 +70,6 @@ footer {
 	background: darkviolet;
 }
 
-#actions a:first-child {
-	margin-right: 0.25rem;
-}
-
-#actions #new-quote-btn {
+#actions #new-quote {
 	float: right;
 }
