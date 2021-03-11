@@ -7,11 +7,13 @@ import Footer from "./components/Footer";
 function App() {
 	const [quote, setQuote] = useState(randomQuote());
 
+	const onClickNewQuote = () => setQuote(randomQuote());
+
 	return (
 		<>
 			<div id="quote-box">
 				<Quote body={quote.body} author={quote.author} />
-				<Actions />
+				<Actions onClickNewQuote={onClickNewQuote} />
 			</div>
 			<Footer />
 		</>
