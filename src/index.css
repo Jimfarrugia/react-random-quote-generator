@@ -17,7 +17,7 @@ a {
 }
 
 button {
-	padding: 0.825rem;
+	padding: 0.7rem;
 	font-size: 1rem;
 	color: #fff;
 	background: indigo;
@@ -77,8 +77,9 @@ footer {
 	float: left;
 	color: #fff;
 	background: indigo;
-	padding: 0.75rem;
+	padding: 0.5rem 0.75rem 0.35rem 0.75rem;
 	border-radius: 3px;
+	font-size: 1.25rem;
 }
 
 #actions a:hover {

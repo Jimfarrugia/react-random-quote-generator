@@ -1,3 +1,5 @@
+import { FaTwitter } from "react-icons/fa";
+
 const Actions = ({ onClickNewQuote, quote }) => {
 	return (
 		<div id="actions">
@@ -5,7 +7,7 @@ const Actions = ({ onClickNewQuote, quote }) => {
 				id="tweet-quote"
 				href={`https://twitter.com/intent/tweet?hashtags=quotes&text="${quote.body}" - ${quote.author}`}
 			>
-				Tweet Quote
+				<FaTwitter />
 			</a>
 			<button id="new-quote" type="button" onClick={onClickNewQuote}>
 				New Quote
